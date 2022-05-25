@@ -45,6 +45,23 @@
         transition: 1s;
         margin-left: 12%;
     }
+    .card{
+        width: 200px;
+        margin: 5px;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+/*-------------------------------------*/
+
+    /*-----------Títulos------------*/
     #Chocolates{
         text-align: center;
         padding: 5px;
@@ -80,22 +97,9 @@
     /*-------------------------*/
 
 
-.card{
-    width: 200px;
-    margin: 5px;
-    border-radius: 6px;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
-    transition: all 400ms ease;
-}
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
-}
 
-/*-------------------------*/
+
+
 
 
 /*----------Menu Tienda-------------*/

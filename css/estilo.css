@@ -65,11 +65,11 @@
   font-size: 45px;
 }
 
-/*-----------------------------*/
 #resumen2 {
   margin-top: 50px;
 }
 
+/*-----------------------------*/
 /*------------Menú------------------*/
 .Styleli {
   list-style: none;
@@ -264,6 +264,24 @@
   margin-left: 12%;
 }
 
+.card {
+  width: 200px;
+  margin: 5px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+/*-------------------------------------*/
+/*-----------Títulos------------*/
 #Chocolates {
   text-align: center;
   padding: 5px;
@@ -298,23 +316,6 @@
   text-align: center;
   font-family: "Permanent Marker";
   font-size: 30px;
-}
-
-/*-------------------------*/
-.card {
-  width: 200px;
-  margin: 5px;
-  border-radius: 6px;
-  overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
 }
 
 /*-------------------------*/
@@ -812,7 +813,7 @@
   .MenuPages {
     position: absolute;
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     background: #2c3e50;
     top: 80px;
     left: -100%;

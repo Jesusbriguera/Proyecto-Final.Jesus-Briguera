@@ -17,7 +17,6 @@
     display: none;
     
     }
-
     .containerIndex2{
         width: 80%;
         height: 100%;
@@ -62,6 +61,7 @@
         font-size: 1rem;
     }
 }
+
 @media (max-width: 314px){
     .parrafoStyle1{
         font-size: 0.6rem;
@@ -126,13 +126,14 @@
     #ubacionStyle{
         font-size: 3rem;
     }
-
 }
+
 @media (mmin-width: 384px){
 .parrafoStyle1{
     font-size: 0.8rem;
 }
 }
+
 @media screen and (min-width: 460px) and (max-width: 625px){
     #grilla{
         display: flex;
@@ -175,7 +176,6 @@
     .botonForm{
         font-size: 3rem;
     }
-
 }
 
 
@@ -186,11 +186,6 @@
         display: flex;
         flex-flow: column nowrap;
     }
-// .seccionProductos{
-//     display: grid; 
-//     grid-template-columns: repeat(1, 1fr);
-//     margin-left: 18%;
-// }
 .enlaceStyle{
     font-size: 15px;
 }
@@ -252,7 +247,6 @@ text-align: center;
 }
 
 @media (min-width: 774px) {
-    
     .parrafoStyle1{
         line-height: 130%;
     }
@@ -282,7 +276,7 @@ text-align: center;
     .MenuPages{
         position: absolute;
         width: 100%;
-        height: 50vh;
+        height: 80vh;
         background: #2c3e50 ;
         top: 80px;
         left: -100% ;
@@ -352,6 +346,7 @@ text-align: center;
         margin-right: 40px;
     }
 }
+
 @media (min-width: 994px){
     #headerNav h1 {
         font-size: 110px;
@@ -388,11 +383,11 @@ text-align: center;
             line-height: 300%;
         }
     }
+
     @media (max-width: 934px){
         #cardsTienda{
         display: grid;
     grid-template-columns: repeat(2,1fr);
-
     }
 }
     @media (max-width: 639px){
@@ -402,6 +397,7 @@ text-align: center;
         justify-items: center;
     }
     }
+
     @media (max-width: 639px){
         #cardsTienda{
             margin-left: 2px;
