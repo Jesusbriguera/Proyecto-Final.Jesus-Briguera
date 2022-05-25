@@ -470,6 +470,15 @@
   font-size: 2rem;
 }
 
+.iconosRedes {
+  display: flex;
+  justify-content: center;
+}
+
+.icono {
+  margin: 1%;
+}
+
 .containerIframe {
   display: flex;
   flex-direction: row;
