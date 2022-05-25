@@ -1,0 +1,154 @@
+
+.tituloProducto{
+    padding: 10px;
+    font-weight: 10;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Permanent Marker';
+}
+.tituloProducto2{
+    margin: 10px;
+    text-align: center;
+    color: $ColorRojo;
+}
+
+
+
+/* ----------Cards----------- */
+#cardsTienda{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    }
+    .btn-primary{
+    margin: 30px 50px;
+    }
+    .card-title{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .card-text{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .card img{
+        width: 50%;
+        height: 40%;
+        margin-left: 24%;
+        padding-top: 20px;
+    }
+    .card img:hover{
+        width: 80%; 
+        height: 70%;
+        transition: 1s;
+        margin-left: 12%;
+    }
+    #Chocolates{
+        text-align: center;
+        padding: 5px;
+        margin: 5px 50px;
+        font-family: $tipofuente;
+        font-size: 30px;
+    }
+    #Caramelos{
+        margin:$margenes;
+        text-align: center;
+        font-family: $tipofuente;
+        font-size: 30px;
+    }
+    #Chupetines{
+        margin:$margenes;
+        text-align: center;
+        font-family: $tipofuente;
+        font-size: 30px;
+    }
+    
+    #Alfajores{
+        margin: $margenes;
+        text-align: center;
+        font-family: $tipofuente;
+        font-size: 30px;
+    }
+    #Chicles{
+        margin: $margenes;
+        text-align: center;
+        font-family: $tipofuente;
+        font-size: 30px;
+    }
+    /*-------------------------*/
+
+
+.card{
+    width: 200px;
+    margin: 5px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+/*-------------------------*/
+
+
+/*----------Menu Tienda-------------*/
+#menuProductos{
+    margin: 20px 100px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    list-style: none;
+}
+.menuProductosStyle{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 25px;
+}
+.menuProductosStyle:hover{
+    background-color: rgb(240, 234, 234);
+    font-size: 27px;
+    transition: 1s;
+}
+
+
+
+/*-----------Logo Whatsapp-----------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/*--------------------------------*/
+
+.enlaceCarrito{
+    margin-left: 47%;
+}

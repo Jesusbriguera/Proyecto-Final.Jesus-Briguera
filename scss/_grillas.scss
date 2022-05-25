@@ -1,0 +1,49 @@
+#grilla {
+    display: grid;
+    grid-template-areas:
+    "headerNav headerNav headerNav"
+    "menu-nav menu-nav menu-nav"
+    "resumen resumen imagenIndex"
+    "resumen2 resumen2 resumen3"
+    "piePagina piePagina piePagina";
+    grid-template-rows: 200px 100px 2fr 400px 20px;
+    grid-template-columns: 20% 40% 38%;
+    height: 100vh;
+    margin: 0;
+    gap: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+#imagenOferta {
+    grid-area: imagenOferta;
+    }
+    
+#piePagina {
+        grid-area: piePagina;
+    }
+    
+#menu-nav{
+    grid-area: menu-nav;
+    }
+
+
+#resumen {
+    grid-area: resumen;
+    text-align: map-get($estilos,center);
+    padding: 30px;
+    }
+    
+#resumen2{
+        grid-area: resumen2;
+    }
+
+#resumen3{
+    grid-area: resumen3;
+}
+
+#imagenIndex {
+    grid-area: imagenIndex;
+    }

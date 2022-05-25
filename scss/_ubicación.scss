@@ -1,0 +1,23 @@
+#ubacionStyle{
+@extend .tittleInfo
+}
+
+.containerIframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tituloUbicacion{
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: $ColorRojo;
+    background-color: black;
+    padding: 1px;
+    font-weight: 1000;
+    font-size: 300%;
+}

@@ -1,0 +1,29 @@
+@import "mixins";
+@import "variables";
+@import "mapa";
+@import "grillas";
+@import "tipografias";
+@import "index";
+@import "tienda";
+@import "info";
+@import "contacto";
+@import "ubicación";
+@import "media-queries";
+
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerStyle{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 15%;
+}
+
+
+
+
+
