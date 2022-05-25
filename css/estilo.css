@@ -1,8 +1,8 @@
 @charset "UTF-8";
 #grilla {
   display: grid;
-  grid-template-areas: "headerNav headerNav headerNav" "menu-nav menu-nav menu-nav" "resumen resumen imagenIndex" "resumen2 resumen2 resumen3" "piePagina piePagina piePagina";
-  grid-template-rows: 200px 100px 2fr 400px 20px;
+  grid-template-areas: "menu-nav menu-nav menu-nav" "headerNav headerNav headerNav" "resumen resumen imagenIndex" "resumen2 resumen2 resumen3" "piePagina piePagina piePagina";
+  grid-template-rows: 100px 200px 2fr 400px 20px;
   grid-template-columns: 20% 40% 38%;
   height: 100vh;
   margin: 0;
@@ -375,15 +375,15 @@
 }
 
 .iframeStyleInfo {
-  width: 900px;
-  height: 500px;
-  margin-top: 50px;
+  width: 80%;
+  height: 90%;
 }
 
 #iframeInfo {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 70vh;
 }
 
 .tittleInfo, #ubacionStyle, .tituloContacto {
@@ -396,7 +396,7 @@
 }
 
 .parrafoInfoStyle {
-  font-size: 30px;
+  font-size: 2rem;
   font-family: Montserrat;
 }
 
@@ -421,7 +421,8 @@
 /*----------------------*/
 /*Formulario*/
 #formulario {
-  margin: 10% 30%;
+  width: 60%;
+  margin: 10% 20%;
   border-radius: 3px;
   background-color: rgb(245, 94, 94);
   padding: 3%;
@@ -501,7 +502,7 @@
   .parrafoStyle1, .parrafoStyle2 {
     line-height: normal;
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 
   #imagenIndex {
@@ -559,6 +560,15 @@
   #ubacionStyle {
     font-size: 2rem;
   }
+
+  .parrafoInfoStyle {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 314px) {
+  .parrafoStyle1, .parrafoStyle2 {
+    font-size: 0.6rem;
+  }
 }
 @media screen and (min-width: 356px) and (max-width: 459px) {
   #grilla {
@@ -574,10 +584,15 @@
     line-height: normal;
     text-align: center;
     font-size: 0.7rem;
+    padding-bottom: 2px;
   }
 
   #imagenIndex {
     display: none;
+  }
+
+  .parrafoInfoStyle {
+    font-size: 1rem;
   }
 
   .containerIndex2 {
@@ -587,6 +602,7 @@
   }
 
   #resumen2 {
+    margin: 0%;
     margin-left: 8%;
   }
 
@@ -603,7 +619,7 @@
   }
 
   .textForm {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
 
   .formDatos {
@@ -627,6 +643,11 @@
     font-size: 3rem;
   }
 }
+@media (mmin-width: 384px) {
+  .parrafoStyle1, .parrafoStyle2 {
+    font-size: 0.8rem;
+  }
+}
 @media screen and (min-width: 460px) and (max-width: 625px) {
   #grilla {
     display: flex;
@@ -640,6 +661,11 @@
   .parrafoStyle1, .parrafoStyle2 {
     line-height: 140%;
     text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .parrafoInfoStyle {
+    font-size: 1.5rem;
   }
 
   #imagenIndex {
@@ -784,9 +810,9 @@
   }
 
   .MenuPages {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background: #2c3e50;
     top: 80px;
     left: -100%;
@@ -835,6 +861,21 @@
 
   #ubacionStyle {
     font-size: 4rem;
+  }
+
+  #headerNav {
+    animation-duration: 7s;
+    animation-name: aparecer;
+    animation-iteration-count: 0;
+  }
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1023px) {

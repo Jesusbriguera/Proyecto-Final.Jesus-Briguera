@@ -1,12 +1,12 @@
 #grilla {
     display: grid;
     grid-template-areas:
-    "headerNav headerNav headerNav"
     "menu-nav menu-nav menu-nav"
+    "headerNav headerNav headerNav"
     "resumen resumen imagenIndex"
     "resumen2 resumen2 resumen3"
     "piePagina piePagina piePagina";
-    grid-template-rows: 200px 100px 2fr 400px 20px;
+    grid-template-rows: 100px 200px 2fr 400px 20px;
     grid-template-columns: 20% 40% 38%;
     height: 100vh;
     margin: 0;

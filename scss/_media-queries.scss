@@ -1,4 +1,5 @@
 
+
 @media screen and (min-width: 1px) and  (max-width: 355px){
     #grilla{
         display: flex;
@@ -10,7 +11,7 @@
     .parrafoStyle1{
         line-height: normal;
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
     #imagenIndex{
     display: none;
@@ -57,8 +58,15 @@
     #ubacionStyle{
         font-size: 2rem;
     }
+    .parrafoInfoStyle{
+        font-size: 1rem;
+    }
 }
-
+@media (max-width: 314px){
+    .parrafoStyle1{
+        font-size: 0.6rem;
+    }
+}
 
 @media screen and (min-width: 356px) and  (max-width: 459px){
     #grilla{
@@ -72,18 +80,23 @@
         line-height: normal;
         text-align: center;
         font-size: 0.7rem;
+        padding-bottom: 2px;
     }
     #imagenIndex{
         display: none;
     }
-    
+    .parrafoInfoStyle{
+        font-size: 1rem;
+    }
     .containerIndex2{
         width: 80%;
         height: 100%;
         margin-left: 10%; 
     }
     #resumen2{
+        margin: 0%;
         margin-left: 8%;
+        
     }
     .tittleInfo{
         font-size: 3rem;
@@ -95,7 +108,7 @@
         font-size: 0.3rem;
     }
     .textForm{
-        font-size: 0.3rem;
+        font-size: 0.4rem;
     }
     .formDatos{
         font-size: 0.5rem;
@@ -115,8 +128,11 @@
     }
 
 }
-
-
+@media (mmin-width: 384px){
+.parrafoStyle1{
+    font-size: 0.8rem;
+}
+}
 @media screen and (min-width: 460px) and (max-width: 625px){
     #grilla{
         display: flex;
@@ -128,6 +144,10 @@
     .parrafoStyle1{
         line-height: 140%;
         text-align: center;
+        font-size: 0.8rem;
+    }
+    .parrafoInfoStyle{
+        font-size: 1.5rem;
     }
     #imagenIndex{
         width: 200px;
@@ -260,16 +280,16 @@ text-align: center;
         display: block;
     }
     .MenuPages{
-        position: fixed;
+        position: absolute;
         width: 100%;
-        height: 100vh;
-        background: #2c3e50;
+        height: 50vh;
+        background: #2c3e50 ;
         top: 80px;
-        left: -100%;
+        left: -100% ;
         text-align: center;
         transition: all .5s;
     }
-    #MenuStyle ul li{
+    #MenuStyle ul li{ 
         display: block;
         margin: 50px 0;
         line-height: 30px;
@@ -302,7 +322,19 @@ text-align: center;
     #ubacionStyle{
         font-size: 4rem;
     }
-
+    #headerNav{
+        animation-duration: 7s;
+        animation-name: aparecer;
+        animation-iteration-count: 0;
+        }
+        @keyframes aparecer {
+        0% {
+        opacity: 0;
+            }
+        100% {
+        opacity: 1;
+            }
+        }
 }
 
 @media screen and (min-width:900px) and (max-width: 1023px){
